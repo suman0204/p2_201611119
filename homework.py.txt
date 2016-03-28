@@ -1,0 +1,10 @@
+import turtle
+wn=turtle.Screen()
+t1=turtle.Turtle()
+def makeBaram(size,bigger,sides,angle):
+    for i in range(sides):
+        if(i%2):
+            size=size+bigger
+            t1.fd(size)
+            t1.right(angle)
+makeBaram(20,10,40,90)
