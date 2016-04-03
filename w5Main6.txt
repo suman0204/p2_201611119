@@ -1,0 +1,22 @@
+title Let's start Rock Scissors Paper Game!
+
+start
+:Define Rock = 2.0 Scissors = 4.0 Paper =8.0
+:Define result = number(UserA) / Number(UserB);
+repeat
+:User A : Select Rock or Scissors or Paper;
+:User B : Select Rock or Scissors or Paper;
+  if (result=0.5)
+  :"userA wins";
+  elseif (result=1.0)
+  :"draw";
+  elseif (result=0.25)
+  :"userB wins";
+  elseif (result=2.0)
+  :"userB wins";
+  elseif (result=4.0)
+  :"userA wins";
+  endif
+  :print Who is winner;
+
+  stop
