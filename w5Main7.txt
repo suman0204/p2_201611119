@@ -1,0 +1,8 @@
+print "Draw star #!"
+print "input size"
+
+s=raw_input("size:")
+s=int(s)
+
+for i in range(s):
+    print " "*(s-i)+"#"*(i*2-1)
