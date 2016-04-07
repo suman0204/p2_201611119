@@ -1,0 +1,10 @@
+ start
+:imput year;
+ if (year%4 == 0 and not year%100 == 0) then (yes)
+      :result = yun year;
+ elseif (year%4==0 and year%400==0) then (yes)
+      :result = yun year;
+ elseif (year%400==0) then (yes)
+      :result = yun year;
+ else
+      :result = not yun year or Input error;
