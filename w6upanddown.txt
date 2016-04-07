@@ -1,0 +1,17 @@
+title Up & Down Game
+start
+:player selects max range;
+:computer selects random one number in range;
+:input number player want;
+:player input one number; 
+while(Play)
+if (compare player's number & computer's number) then (player's number < computer's number)
+:Up;
+else (player's number > computer's number)
+:Down;
+endif
+endwhile
+:player's number = computer's number;
+:"Correct!";
+:End Game;
+stop
