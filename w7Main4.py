@@ -1,4 +1,4 @@
-﻿def savTracks():
+﻿def saveTracks():
     import turtle
     wn=turtle.Screen()
     wn.bgpic("myMaze.gif")
@@ -58,7 +58,7 @@
     t1.fd(200)
     mytracks.append(t1.pos())
     
-    return mytracks
+    return mytracks 
 
 def replayTracks(mytracks):
     for t in mytracks:
