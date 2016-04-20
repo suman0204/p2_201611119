@@ -66,6 +66,7 @@ def replayTracks(mytracks):
 
 def lab7():
     mytracks=saveTracks()
+    saveTracks()
     replayTracks(mytracks)
     
 def main():
